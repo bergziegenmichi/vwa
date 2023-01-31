@@ -20,6 +20,12 @@
 \usepackage{caption}
 \usepackage[parfill]{parskip}
 
+\usepackage{mhchem}
+
+\usepackage{subfiles}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
 
 % make Abbildungsverzeichnis have a section number
 %\renewcommand{\listoffigures}{\begingroup
@@ -62,30 +68,7 @@ Warum Waschmittel wichtig sind und paar Fakten zu Waschmitteln generell. Auch wi
 
 \section{Inhaltsstoffe von Waschmitteln}
 
-
-\subsection{Tenside}
-
-Tenside sind, aufgrund ihrer Fähigkeit unpolare Stoffe zu lösen, die wichtigsten Inhaltsstoffe von Waschmitteln. Sie sind amphiphil, das bedeutet sie weisen sowohl einen hydrophilen, als auch einen lipophilen Molekülteil auf. Der immer ähnlich aussehende, lipophile Teil wird bei allen Tensiden durch einen langkettigen Kohlenwasserstoffrest gebildet. Der hydrophile Teil hingegen kann sehr unterschiedlich aufgebaut sein, wodurch Tenside, je nach Ladung des Molekülteils in vier Klassen eingeteilt werden können:
-\begin{itemize}
-	\item Anionische Tenside
-	\item Kationische Tenside
-	\item Nichtionische Tenside
-	\item Amphotere Tenside
-\end{itemize}
-
-Der genaue Aufbau des hydrophilen Teils und die Struktur des lipophilen Alkyl-Restes beeinflussen die Waschaktivität der Tenside. Durch die Anwesenheit von gelösten Ionen können schwerlösliche Salze entstehen, welche das Waschvermögen einschränken oder sich auf der Wäsche ablagern können.
-
-Das bekannteste Tensid ist die Seife, welche zur Gruppe der anionischen Tenside gehört.
-
-\subsubsection{Anionische Tenside}
-
-\subsubsection{Kationische Tenside}
-
-\subsubsection{Nichtionische Tenside}
-
-\subsubsection{Amphotere Tenside}
-
-\subsection{Gerüststoffe}
+\subfile{tenside.tex}
 
 \subsection{Bleichmittel}
 
